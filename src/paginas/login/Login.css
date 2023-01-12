@@ -1,0 +1,59 @@
+.text-decorator-none {
+    text-decoration: none;
+}
+.loginStyle2{
+    display: flex;
+    justify-content: center;
+}
+.loginStyle2 img{
+    width: auto;
+    height: 420px;
+}
+.fullScreen {
+    height: 100vh;
+    padding-right: 70px;
+    background-color: #008f62;
+}
+.loginStyle {
+    border-radius: 3px;
+    border: none !important;
+    padding: 4rem;
+    background-color: #fff;
+}
+
+.flex {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.linkStyle {
+    color: #00a470;
+    text-decoration: none;
+}
+.btnLogin{
+    background-color: #00a470 !important;
+    color: #e3e3e3 !important;
+    margin-top: 20px !important;
+    width: 100%;
+    padding: 12px 0px !important;
+}
+.btnLogin:hover{
+    background-color: #008f62 !important;
+    color: #e3e3e3 !important;
+}
+.ou{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #bbb;
+}
+.ou .tracinho{
+    height: 1.5px !important;
+    margin: 5px;
+    width: 100% !important;
+    background-color: #ccc !important;
+}

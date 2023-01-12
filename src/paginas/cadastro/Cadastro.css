@@ -1,0 +1,39 @@
+.text-decorator-none{
+    text-decoration: none;
+}
+.cadastroStyle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadastroStyle2 img{
+    width: auto;
+    height: 450px;
+}
+.containerCadastro{
+    display: flex;
+    background-color: #008f62 !important;
+    padding: 30px;
+}
+.btnCancelar{
+    margin-right: 20px !important;
+    background-color: #fff !important;
+    color: #222 !important;
+}
+.btnCancelar:hover{
+    background-color: #e3e3e3 !important;
+}
+.btn-cadastrar{
+    background-color: #00a470 !important;
+    color: #e3e3e3 !important;
+}
+.btn-cadastrar:hover{
+    background-color: #008f62 !important;
+    color: #e3e3e3 !important;
+}
+.cadastroStyle {
+    border-radius: 3px;
+    border: none !important;
+    padding: 4rem;
+    background-color: #fff;
+}

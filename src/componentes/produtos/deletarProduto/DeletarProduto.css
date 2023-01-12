@@ -1,0 +1,26 @@
+.topo{
+    margin-top: 20px;
+}
+.containerDeletar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnDeletarSim{
+    background-color: transparent !important;
+    color: #333 !important;
+    border: #333 solid 1px !important;
+}
+.btnDeletarNao{
+    background-color: transparent !important;
+    color: #333 !important;
+    border: #333 solid 1px !important;
+}
+.btnDeletarSim:hover{
+    background-color: #333 !important;
+    color: #fff !important;
+}
+.btnDeletarNao:hover{
+    background-color: #333 !important;
+    color: #fff !important;
+}

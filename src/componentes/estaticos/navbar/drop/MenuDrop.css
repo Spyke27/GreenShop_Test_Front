@@ -1,0 +1,14 @@
+.btnCategorias{
+    text-transform: uppercase;
+    color: #e3e3e3 !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    border-bottom: 2px solid #00A470;
+    margin-left: -14px !important;
+    margin-right: 5px !important;
+    margin-bottom: -2.5px !important;
+}
+.btnCategorias:hover{
+    color: #fff !important;
+    border-bottom: 2px solid #fff;
+}

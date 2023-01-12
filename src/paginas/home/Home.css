@@ -1,0 +1,27 @@
+.border{
+    border-style: double;
+    justify-content: center;
+   }
+   .espaço{
+       padding-top: 50px;
+   }
+   .font{
+       font-weight: 100;
+       margin-top: 50px;
+   }
+   .img{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: center;
+   }
+   .mg{
+       padding: 30px;
+   }
+   .pc{
+       margin-right: 10px;
+   }
+   .cf{
+       color:rgb(13, 77, 56);
+       font-weight: bold!important
+   }

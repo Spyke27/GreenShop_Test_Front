@@ -1,0 +1,109 @@
+*{
+    text-decoration: none !important;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    min-height: 100vh;
+    padding: 0px !important;
+    padding-bottom: 20px !important;
+}
+.btnAdicionarProduto{
+    background-color: #00a470 !important;
+    border-radius: 50% !important;
+    padding: 15px !important;
+    position: fixed !important;
+    bottom: 5%;
+    right: 3%;
+    z-index: 99;
+}
+.btnAdicionarProduto:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-out;
+}
+.cardProduto{
+    width: 290px;
+    height: 330px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 8px !important;
+}
+.cardProduto:hover{
+    background-color: #f2f2f2 !important;
+}
+.btnHover:hover{
+    transform: scale(1.08);
+}
+.cardPreco{
+    font-size: 15px !important;
+    color: #00a470 !important;
+}
+.fotoCardProduto{
+    width: 100%;
+    height: 200px;
+}
+.btnArea{
+    margin-bottom: 0px !important;
+    margin-top: -34px !important;
+    margin-left: 8px !important;
+    z-index: 98;
+}
+.cardDescricao{
+    font-size: 12px !important;
+    color: #555;
+    min-height: 50px;
+}
+.cardCategoria{
+    font-size: 12px !important;
+    color: #bbb !important;
+}
+.cardNome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnCarrinho{
+    background-color: #dbdb2a !important;
+    padding: 5px 10px !important;
+    color: #fff !important;
+}
+.btnCarrinho:hover{
+    background-color: #ecec41 !important;
+    transform: scale(1.05);
+    transition: ease-in-out .3s;
+}
+.btnCarrinho img{
+    width: 23px;
+    height:20px;
+    margin-left: 5px;
+}
+.btnComprar{
+    background-color: #04e710 !important;
+    padding: 5px 15px !important;
+    color: #fff !important;
+}
+.btnComprar:hover{
+    background-color: #3bff45 !important;
+    transform: scale(1.05);
+    transition: ease-in-out .3s;
+}
+.btnOptions{
+    display: flex;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+.btnOptions img{
+    width: 18px;
+    height: 18px;
+    background-color: blue;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+    border: .5px solid #ccc;
+}

@@ -1,0 +1,71 @@
+.containerSN{
+    display: flex;
+    background-color: #111;
+    color: white !important;
+    align-items: center;
+    padding: 50px;
+}
+.sobreProjeto{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e3e3e3;
+}
+.barrinha{
+    width: 220px;
+    border-radius: 1px;
+    height: 3px;
+    background-color: #00a470;
+    margin: 5px;
+}
+.boxPerfil3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imagem {
+    width: 600px;
+    height: auto;
+}
+.card2{
+    margin: 20px;
+    width: 200px;
+    height: 250px;
+}
+.socialPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.2s all ease-in-out;
+}
+
+.btnGithub{
+    background-color: #00a470 !important;
+    color: #fff !important;
+}
+.btnGithub:hover{
+    background-color: #222 !important;
+}
+.btnLinkedin{
+    background-color: #00a470 !important;
+    color: #fff !important;
+}
+.btnLinkedin:hover{
+    background-color: #222 !important;
+}
+
+.desenvolvedores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.textDesenvolvedores{
+    color: #222 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
